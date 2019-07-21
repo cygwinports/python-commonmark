@@ -1,0 +1,14 @@
+inherit python-wheel
+
+NAME="python-commonmark"
+VERSION=0.9.0
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Python CommonMark parser"
+DESCRIPTION="Python parser for the CommonMark Markdown spec"
+
+ARCH=noarch
+
+PKG_NAMES+=" commonmark"
+commonmark_CATEGORY="Text"
+commonmark_CONTENTS="usr/bin/cmark"
